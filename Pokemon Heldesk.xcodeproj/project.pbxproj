@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0398C7D1D619EB400C63DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0398C7C1D619EB400C63DB2 /* AppDelegate.swift */; };
+		A0398C7F1D619EB400C63DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0398C7E1D619EB400C63DB2 /* ViewController.swift */; };
+		A0398C821D619EB400C63DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0398C801D619EB400C63DB2 /* Main.storyboard */; };
+		A0398C841D619EB400C63DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0398C831D619EB400C63DB2 /* Assets.xcassets */; };
+		A0398C871D619EB400C63DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0398C851D619EB400C63DB2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0398C791D619EB400C63DB2 /* Pokemon Heldesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Heldesk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0398C7C1D619EB400C63DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0398C7E1D619EB400C63DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0398C811D619EB400C63DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0398C831D619EB400C63DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0398C861D619EB400C63DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0398C881D619EB400C63DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0398C761D619EB400C63DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0398C701D619EB300C63DB2 = {
+			isa = PBXGroup;
+			children = (
+				A0398C7B1D619EB400C63DB2 /* Pokemon Heldesk */,
+				A0398C7A1D619EB400C63DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0398C7A1D619EB400C63DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0398C791D619EB400C63DB2 /* Pokemon Heldesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0398C7B1D619EB400C63DB2 /* Pokemon Heldesk */ = {
+			isa = PBXGroup;
+			children = (
+				A0398C7C1D619EB400C63DB2 /* AppDelegate.swift */,
+				A0398C7E1D619EB400C63DB2 /* ViewController.swift */,
+				A0398C801D619EB400C63DB2 /* Main.storyboard */,
+				A0398C831D619EB400C63DB2 /* Assets.xcassets */,
+				A0398C851D619EB400C63DB2 /* LaunchScreen.storyboard */,
+				A0398C881D619EB400C63DB2 /* Info.plist */,
+			);
+			path = "Pokemon Heldesk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0398C781D619EB400C63DB2 /* Pokemon Heldesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0398C8B1D619EB400C63DB2 /* Build configuration list for PBXNativeTarget "Pokemon Heldesk" */;
+			buildPhases = (
+				A0398C751D619EB400C63DB2 /* Sources */,
+				A0398C761D619EB400C63DB2 /* Frameworks */,
+				A0398C771D619EB400C63DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon Heldesk";
+			productName = "Pokemon Heldesk";
+			productReference = A0398C791D619EB400C63DB2 /* Pokemon Heldesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0398C711D619EB400C63DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carlos Romarate Jr";
+				TargetAttributes = {
+					A0398C781D619EB400C63DB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A0398C741D619EB400C63DB2 /* Build configuration list for PBXProject "Pokemon Heldesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0398C701D619EB300C63DB2;
+			productRefGroup = A0398C7A1D619EB400C63DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0398C781D619EB400C63DB2 /* Pokemon Heldesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0398C771D619EB400C63DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0398C871D619EB400C63DB2 /* LaunchScreen.storyboard in Resources */,
+				A0398C841D619EB400C63DB2 /* Assets.xcassets in Resources */,
+				A0398C821D619EB400C63DB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0398C751D619EB400C63DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0398C7F1D619EB400C63DB2 /* ViewController.swift in Sources */,
+				A0398C7D1D619EB400C63DB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0398C801D619EB400C63DB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0398C811D619EB400C63DB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0398C851D619EB400C63DB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0398C861D619EB400C63DB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0398C891D619EB400C63DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0398C8A1D619EB400C63DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0398C8C1D619EB400C63DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Heldesk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Pokemon-Heldesk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0398C8D1D619EB400C63DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Heldesk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Pokemon-Heldesk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0398C741D619EB400C63DB2 /* Build configuration list for PBXProject "Pokemon Heldesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0398C891D619EB400C63DB2 /* Debug */,
+				A0398C8A1D619EB400C63DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0398C8B1D619EB400C63DB2 /* Build configuration list for PBXNativeTarget "Pokemon Heldesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0398C8C1D619EB400C63DB2 /* Debug */,
+				A0398C8D1D619EB400C63DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0398C711D619EB400C63DB2 /* Project object */;
+}
